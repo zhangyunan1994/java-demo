@@ -10,6 +10,8 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>lombok</module>
+    <module>concurrent</module>
+    <module>ds</module>
   </modules>
 
   <name>java-demo</name>
