@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestReentrantLock {
+public class  TestReentrantLock {
 
   Lock lock;
 

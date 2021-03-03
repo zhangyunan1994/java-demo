@@ -12,6 +12,7 @@
     <module>lombok</module>
     <module>concurrent</module>
     <module>ds</module>
+    <module>redis</module>
   </modules>
 
   <name>java-demo</name>

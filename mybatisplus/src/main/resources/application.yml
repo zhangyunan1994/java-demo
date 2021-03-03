@@ -1,0 +1,13 @@
+server:
+  port: 8087
+  max-http-header-size: 4048576
+spring:
+  datasource:
+    username: xianzhiuser
+    password: xianzhi235
+    url: jdbc:mysql://192.168.0.211:3306/jinbu_ecm?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true
+    hikari:
+      maximum-pool-size: 10
+      connection-test-query: SELECT 1 FROM DUAL
+      minimum-idle: 1
+    driver-class-name: com.mysql.jdbc.Driver
