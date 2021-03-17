@@ -5,22 +5,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.abc</groupId>
-  <artifactId>java-demo</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>nio</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>lombok</module>
-    <module>concurrent</module>
-    <module>ds</module>
-    <module>redis</module>
-    <module>nio</module>
-    <module>netty</module>
-  </modules>
 
-  <name>java-demo</name>
+  <name>nio</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>

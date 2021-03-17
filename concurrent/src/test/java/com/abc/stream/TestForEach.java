@@ -38,7 +38,6 @@ public class TestForEach {
 
   @Test
   public void testParallelStreamForEach() {
-    dataList.parallelStream().map();
   }
 
 
